@@ -1,0 +1,5 @@
+check process space-audity
+  with pidfile /var/vcap/sys/run/space-audity/space-audity.pid
+  start program "/var/vcap/jobs/space-audity/bin/space-audity-ctl start"
+  stop program "/var/vcap/jobs/space-audity/bin/space-audity-ctl stop"
+  group vcap

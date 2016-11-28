@@ -1,0 +1,11 @@
+---
+name: space-audity
+
+templates:
+  space-audity-ctl.erb: bin/space-audity-ctl
+  space-audity.yaml: config/space-audity.yaml
+
+packages:
+  - space-audity
+
+properties: {}

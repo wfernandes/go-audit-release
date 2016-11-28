@@ -1,0 +1,8 @@
+set -ex
+
+ls -al
+pwd
+cd space-audity
+ls -al
+mv go-audit space-audity
+cp -a space-audity ${BOSH_INSTALL_TARGET}

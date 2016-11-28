@@ -1,0 +1,7 @@
+---
+name: space-audity
+
+dependencies:
+
+files:
+  - space-audity/go-audit
